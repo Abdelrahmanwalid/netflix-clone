@@ -1,0 +1,131 @@
+body {
+  background-color: #141414;
+  color: aliceblue;
+  height: 100%;
+  font-family: 'Effra Trial', sans-serif;
+
+}
+
+.profile--selector{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 125px;
+
+}
+.label {
+  font-size: 70px;
+  font-weight: 400;
+  text-align: center;
+}
+.profile--list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.profile {
+  margin:0px 20px;
+  display:inline-block;
+  text-decoration:none;
+}
+.profile:hover{
+  cursor: pointer;
+}
+.profile--image{
+  max-height: 200px;
+  max-width: 200px;
+  min-height: 84px;
+  min-width: 84px;
+ border-radius: 4px;
+ 
+ 
+}
+.profile:hover > .profile--image{
+  outline: 4px solid #d9d9d9;
+  
+}
+.profile--text{
+text-align:center;
+color: #7A7A7A;
+font-weight: 400;
+padding: 0;
+margin: 2px;
+}
+.profile:hover>.profile--text{
+  color:#d9d9d9;
+}
+.button--position{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.manage--profiles{
+  background-color: transparent;
+    border: 1px solid grey;
+    color: grey;
+    cursor: pointer;
+    display: block;
+    font-size: 1.3vw;
+    margin: 2em 0 1em;
+    padding: 0.5em 1.5em;
+
+}
+.manage--profiles:hover{
+  color:#d9d9d9;
+  border: 1px solid #d9d9d9;
+}
+
+.container {
+  padding : 0px;
+  margin: 0px;
+}
+.container--image{
+  min-height: 300px;
+  max-height: 300px;
+  max-width: 250px;
+  
+}
+.container--image:hover{
+  cursor: pointer;
+  min-height: 350px;
+  transition: 0.05s;
+}
+nav {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(  #070707,#141414);
+}
+.nav--icon{
+  max-height: 30px;
+  max-width: 100px;
+  padding: 20px 30px 20px 60px;
+}
+.nav--items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+}
+.nav--links {
+  margin: 0px 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.nav--links:hover {
+ cursor: pointer;
+ color: #928f8f;
+ transition-delay: 0.25s;
+}
+.search--box--container{
+  margin-left: auto;
+}
+.search--box {
+  background: transparent;
+  border: 1px solid #928f8f;
+  border-radius: 0px;
+  color: #7A7A7A;
+  padding: 10px 50px 10px 10px;
+}
